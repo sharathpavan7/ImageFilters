@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ImageFilters</string>
+
+    <!-- menu file strings -->
+    <string name="save">Save</string>
+    <string name="open">Open</string>
 </resources>
