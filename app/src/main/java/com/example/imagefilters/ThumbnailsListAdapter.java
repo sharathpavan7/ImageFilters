@@ -40,7 +40,7 @@ public class ThumbnailsListAdapter extends RecyclerView.Adapter<ThumbnailsListAd
         }
     }
 
-    private ThumbnailsListAdapter(Context context, List<ThumbnailItem> thumbnailItems,
+    public ThumbnailsListAdapter(Context context, List<ThumbnailItem> thumbnailItems,
                                   ThumbnailsAdapterListener lisntener) {
         this.mContext = context;
         this.thumbnailItems = thumbnailItems;
